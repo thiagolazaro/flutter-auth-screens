@@ -6,7 +6,7 @@ Autenticação em Flutter com GetX.
 
 Este projeto foi desenvolvido com o propósito de estudo e prática no uso do Flutter junto com o GetX. Ele consiste em:
 
-- Tela de **Login**: Validação de entrada e gerenciamento de estado com GetX.
+- Tela de **Login**: Validação de entrada e gerenciamento de rota com GetX.
 - Tela de **Registro**: Criação de novos usuários com estrutura otimizada de controllers e validações.
 
 A estrutura segue boas práticas de desenvolvimento e organização de código, proporcionando uma base sólida para futuros projetos.
@@ -49,7 +49,7 @@ Se você está iniciando no Flutter, aqui estão alguns recursos para começar:
 
 Explore o código no GitHub:
 
-👉 [Flutter GetX Authenticate](https://github.com/thiagolazaro/flutter-getx-autenticate)
+👉 [Flutter GetX Authenticate](https://github.com/thiagolazaro/flutter-auth-screens)
 
 ---
 
@@ -59,4 +59,4 @@ Sinta-se à vontade para clonar, experimentar e sugerir melhorias!
 
 ```bash
 # Clone o repositório
-git clone https://github.com/thiagolazaro/flutter-getx-autenticate.git
+git clone https://github.com/thiagolazaro/flutter-auth-screens
