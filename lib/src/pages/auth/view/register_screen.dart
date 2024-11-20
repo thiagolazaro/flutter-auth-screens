@@ -37,7 +37,7 @@ class RegisterScreen extends StatelessWidget {
                     labelStyle: const TextStyle(color: Color(0xFF493AD5)),
                     errorText: authController.isEmailValid.value
                         ? null
-                        : "Email é obrigatório",
+                        : "Email is required",
                     filled: true,
                     isDense: true,
                     fillColor: Colors.white,
@@ -57,11 +57,11 @@ class RegisterScreen extends StatelessWidget {
                   decoration: InputDecoration(
                     prefixIcon:
                         const Icon(Icons.lock, color: Color(0xFF493AD5)),
-                    labelText: "Senha",
+                    labelText: "Password",
                     labelStyle: const TextStyle(color: Color(0xFF493AD5)),
                     errorText: authController.isPasswordValid.value
                         ? null
-                        : "Senha é obrigatória",
+                        : "Password is required",
                     filled: true,
                     isDense: true,
                     fillColor: Colors.white,
@@ -81,11 +81,11 @@ class RegisterScreen extends StatelessWidget {
                   decoration: InputDecoration(
                     prefixIcon:
                         const Icon(Icons.lock, color: Color(0xFF493AD5)),
-                    labelText: "Confirmar Senha",
+                    labelText: "Confirmed Password",
                     labelStyle: const TextStyle(color: Color(0xFF493AD5)),
                     errorText: authController.isConfirmPasswordValid.value
                         ? null
-                        : "Confirme a senha",
+                        : "Confirmed Password is required",
                     filled: true,
                     isDense: true,
                     fillColor: Colors.white,
@@ -108,13 +108,13 @@ class RegisterScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12),
                   ),
                 ),
-                child: const Text("Login", style: TextStyle(fontSize: 18)),
+                child: const Text("Register", style: TextStyle(fontSize: 18)),
               ),
               const SizedBox(height: 20),
               TextButton(
                 onPressed: () => Get.to(() => LoginScreen()),
                 child: const Text(
-                  "Já tem uma conta? Faça login",
+                  "Have an account? Login",
                   style: TextStyle(
                     color: Color(0xFF493AD5),
                     fontSize: 16,

@@ -30,15 +30,15 @@ class AuthController extends GetxController {
       emailController.clear();
       passwordController.clear();
       Get.snackbar(
-        "Sucesso",
-        "Login realizado com sucesso!",
+        "Success",
+        "Login successfully!",
         backgroundColor: Colors.green,
         colorText: Colors.white,
       );
     } else {
       Get.snackbar(
         "Erro",
-        "Erro ao realizar login!",
+        "Erro in login!",
         backgroundColor: Colors.red,
         colorText: Colors.white,
       );
@@ -73,15 +73,15 @@ class AuthController extends GetxController {
       passwordController.clear();
       confirmPasswordController.clear();
       Get.snackbar(
-        "Sucesso",
-        "Cadastrado com sucesso!",
+        "Success",
+        "Created account successfully!",
         backgroundColor: Colors.green,
         colorText: Colors.white,
       );
     } else {
       Get.snackbar(
         "Erro",
-        "Erro ao cadastrar!",
+        "Erro in creating account!",
         backgroundColor: Colors.red,
         colorText: Colors.white,
       );

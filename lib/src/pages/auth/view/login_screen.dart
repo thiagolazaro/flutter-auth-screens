@@ -37,7 +37,7 @@ class LoginScreen extends StatelessWidget {
                     labelStyle: const TextStyle(color: Color(0xFF493AD5)),
                     errorText: authController.isEmailValid.value
                         ? null
-                        : "Email é obrigatório",
+                        : "Email is required",
                     filled: true,
                     isDense: true,
                     fillColor: Colors.white,
@@ -57,11 +57,11 @@ class LoginScreen extends StatelessWidget {
                   decoration: InputDecoration(
                     prefixIcon:
                         const Icon(Icons.lock, color: Color(0xFF493AD5)),
-                    labelText: "Email",
+                    labelText: "Password",
                     labelStyle: const TextStyle(color: Color(0xFF493AD5)),
                     errorText: authController.isPasswordValid.value
                         ? null
-                        : "Email é obrigatório",
+                        : "Password is required",
                     filled: true,
                     isDense: true,
                     fillColor: Colors.white,
@@ -90,7 +90,7 @@ class LoginScreen extends StatelessWidget {
               TextButton(
                 onPressed: () => Get.to(() => RegisterScreen()),
                 child: const Text(
-                  "Ainda não tem uma conta? Cadastre-se",
+                  "Don't have an account? Register",
                   style: TextStyle(
                     color: Color(0xFF493AD5),
                     fontSize: 16,
